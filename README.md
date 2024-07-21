@@ -150,9 +150,3 @@ show_downloads
 ```
 stop_share ​<group_id> <file_name>
 ```
-
-## Assumptions
-
-1. Only one tracker is implemented and that tracker should always be online.
-2. Cross client login is restricted, ie. ip and port are bound to the user during user creation.
-3. File paths should be absolute.
